@@ -1,0 +1,6 @@
+GET
+/lesson
+/
+
+POST
+/student/lessonId
