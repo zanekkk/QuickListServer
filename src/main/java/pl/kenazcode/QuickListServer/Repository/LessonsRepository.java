@@ -7,11 +7,8 @@ import pl.kenazcode.QuickListServer.Lesson;
 
 import java.util.List;
 
-
 @Repository
 public interface LessonsRepository extends JpaRepository<Lesson, Integer> {
-    @Query("SELECT l.id, l.name FROM Lesson l")
+    @Query("SELECT l.lessonId, l.lessonName FROM Lesson l")
     List<Lesson> getAllLessons();
-
-
 }

@@ -20,4 +20,5 @@ public abstract class ResponseContent {
         return result.toString();
     }
 
+
 }
